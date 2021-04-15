@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="circle">
+    <div class="mountain1"></div>
+    <div class="mountain2"></div>
+  </div>
+</div>
+<style>
+  * {
+    background: #293462;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .circle {
+    position: relative;
+    background: #fff1c1;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .mountain2 {
+    position: absolute;
+    background: #fe5f55;
+    height: 70px;
+    width: 70px;
+    bottom: -14px;
+    left: -5px;
+    transform: rotate(135deg);
+  }
+
+  .mountain1 {
+    position: relative;
+    background: #fe5f55;
+    height: 150px;
+    width: 150px;
+    margin: 90px 0 0 66px;
+    transform: rotate(135deg);
+  }
+</style>
